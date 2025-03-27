@@ -10,13 +10,26 @@
 ![Node.js Version](https://img.shields.io/badge/Node.js-16%2B-brightgreen)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/mahmudnibir/AutoCommitter)
 ![GitHub Code Size](https://img.shields.io/github/languages/code-size/mahmudnibir/AutoCommitter)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-blue) 
 
 ---
 **⚠️ Note: This project is intended for learning and experimentation. Please use it responsibly and ethically.**
 
----
+--- 
+## 📚 Table of Contents  
+- [Overview](#overview)  
+- [Features](#features)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [How It Works](#how-it-works)  
+- [Contribution](#contribution-guidelines)  
+- [License](#license)  
+- [Contact](#contact)  
+- [Support](#support)
+ 
 
-## 📖 Overview  
+
+## Overview  
 
 The **Commit Automation Script** is a Node.js tool that **automates Git commits** with randomized timestamps. This script is perfect for **filling up your GitHub contribution graph** or simulating commit history for testing purposes.  
 
@@ -27,7 +40,7 @@ The **Commit Automation Script** is a Node.js tool that **automates Git commits*
 
 ---
 
-## 🚀 Features  
+##  Features  
 
 | Feature | Description |
 |---------|------------|
@@ -40,7 +53,7 @@ The **Commit Automation Script** is a Node.js tool that **automates Git commits*
 
 ---
 
-## ⚙️ Installation  
+## Installation  
 
 ### **🔹 Prerequisites**  
 
@@ -72,7 +85,7 @@ node index.js
 
 ---
 
-## 🎯 Usage  
+## Usage  
 
 ### **1️⃣ Customize Commit Count**  
 Modify the number of commits in the script:  
@@ -85,7 +98,7 @@ makeCommits(100); // Change 100 to any number of commits you want
 Simply execute:  
 
 ```bash
-node index.js
+node index.js  # Runs the script
 ```
 
 ### **3️⃣ View Commit History**  
@@ -97,14 +110,13 @@ git log --oneline --graph --decorate --all
 
 ---
 
-## 📌 How It Works  
-
-The script:  
-1. **Generates a random date** within the last year.  
-2. **Writes the commit date** to `data.json`.  
-3. **Adds and commits** the file with the generated timestamp.  
-4. **Pushes changes** to the GitHub repository.  
-5. **Repeats until the desired number of commits is made.**  
+## How It Works  
+1️⃣ Generates a **random timestamp** (past year or custom range).  
+2️⃣ Writes commit data to `data.json`.  
+3️⃣ Uses `simple-git` to **stage, commit, and push**.  
+4️⃣ Repeats until reaching the desired commit count.  
+5️⃣ Enjoy a **fully automated commit streak!**  
+ 
 
 ---
 
@@ -166,33 +178,37 @@ When running the script, it prints generated commit dates:
 
 ---
 
-## 🎨 Contribution Guidelines  
+## Contribution Guidelines  
 
 💡 **Want to improve the script?** Contributions are welcome!  
 
 ### **📌 How to Contribute**  
-1. Fork the repository.  
-2. Create a new branch (`git checkout -b feature-branch`).  
-3. Make your changes and commit them.  
-4. Push to your fork (`git push origin feature-branch`).  
-5. Create a **Pull Request**!  
+| Step | Action |
+|------|--------|
+| 🏗 **Fork** | Clone the repo & create a new branch |
+| 🔧 **Develop** | Make your changes, write clear commit messages |
+| 📌 **Push** | Push to your fork & create a PR |
+| 🚀 **Review** | Wait for approval & merge |
+
 
 ---
 
-## 📜 License  
+## License  
 
 📝 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
 
 ---
 
-## 📞 Contact  
+## Contact  
+*Developed by [Nibir Mahmud](https://github.com/mahmudnibir)*
+
 
 📧 **Email**: [nibirbbkr@gmail.com](mailto:nibirbbkr@gmail.com)  
 🐦 **Github**: [@mahmudnibir](https://github.com/mahmudnibir)    
 
 ---
 
-## ⭐ Support  
+## Support  
 
 If you find this project helpful, **please consider giving it a star ⭐ on GitHub!** It helps others discover the project.  
 
