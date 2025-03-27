@@ -13,9 +13,13 @@
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-blue) 
 
 ---
-**⚠️ Note: This project is intended for learning and experimentation. Please use it responsibly and ethically.**
+> [!NOTE]
+ This project is intended for learning and experimentation. Please use it responsibly and ethically.
 
 --- 
+
+
+
 ## 📚 Table of Contents  
 - [Overview](#overview)  
 - [Features](#features)  
